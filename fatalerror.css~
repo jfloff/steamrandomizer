@@ -1,0 +1,126 @@
+
+#BG_top {
+	position:relative;
+	background-image:url('http://steamcommunity.com/public/images/skin_1/bg_top.gif');
+	background-repeat:no-repeat;
+	width:958px;
+	height:150px;
+	text-align: left;
+}
+#BG_bottom {
+	background-image:url('http://steamcommunity.com/public/images/skin_1/bg_bottom.gif');
+	background-repeat:repeat-y;
+	width:958px;
+	text-align:left;
+}
+#BG_top h2 {
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+	padding-top:21px;
+	font-size: 26px;
+	color: #898989;
+	padding-left:17px;
+}
+#BG_top h1 {
+	font-weight:normal;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+	font-size: 26px;
+	color: #e1e1e1;
+	margin:0;
+	padding:0;
+	padding-top:0px;
+	padding-bottom:5px;
+	padding-left:17px;
+}
+#mainContents {
+	width:936px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	padding-left:17px;
+	padding-top:10px;
+}
+#mainContents h2 {
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+	font-size: 26px;
+	color: #898989;
+}
+#message {
+	text-align: left;
+	padding-left: 106px;
+	padding-right:50px;
+	
+}
+#message h1 {
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	padding-top: 20px;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+	font-size: 18px;
+	line-height:0.5em;
+	color: #e1e1e1;
+}
+p.sectionText {
+	color: #8c8c8c;
+	font-size: 12px;
+	margin:0;
+	padding:0;
+	padding-top:12px;
+	margin-bottom:12px;
+}
+a.linkBlue,a.linkBlue:hover,a.linkBlue:active,a.linkBlue:visited {
+	font-size: 11px;
+	color: #6f9fc8;
+}
+
+a.linkBlue:hover {
+}
+
+h3 {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+	font-weight:bold;
+	color:#bebebe;
+}
+
+p.returnLink {
+	padding-bottom:12px;
+	font-size:12px;
+	color:#939393;
+}
+
+a.linkStandard {
+	font-size:12px;
+}
+
+#soldierHolder {
+	position:relative;
+	width:700px;
+	height:921px;
+}
+
+#soldierText {
+	position:absolute;
+	line-height:26px;
+	font-size:16px;
+	font-weight:bold;
+	color:#ffffff;
+	top:70px;
+	left:50px;
+	width:600px;
+}
+
+#soldierText a,#soldierText a:hover,#soldierText a:visited,#soldierText a:active {
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#ffffff;
+}

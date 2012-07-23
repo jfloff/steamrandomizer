@@ -1,0 +1,552 @@
+
+
+.a:focus {
+	outline: 0px none;
+}
+
+#headerBar {
+	text-align:left;
+	margin:0;
+	padding:0;
+	background-color:#111111;
+	width:100%;
+	color:#545454;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+	font-size:10px;
+	margin-bottom:0px;
+}
+
+a.headerLink,a.headerLink:active,a.headerLink:visited,a.headerLink:hover {
+	text-decoration:none;
+	color:#959595;
+}
+
+#headerRight {
+	float:right;
+	padding:0;
+	margin:0;
+	padding-right:27px;
+}
+
+#headerLinks>p {
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+#headerRight .personaName {
+	color:#cfcfcf;
+}
+
+.headerLinkActive {
+	color:#cfcfcf;
+	font-weight:bold;
+}
+
+#steamLogo {
+	float:left;
+	margin:0;
+	padding:0;
+	width:105px;
+	height:54px;
+}
+
+#steamText {
+	margin:0;
+	padding:0;
+	height:35px;
+}
+
+#headerLinks {
+	margin:0;
+	padding:0;
+	height:19px;
+}
+
+#headerLinks>p {
+	padding-left:6px;
+}
+
+#subHeader {
+	position:relative;
+	margin:0;
+	padding:0;
+	height:36px;
+	background-image:url('http://steamcommunity.com/public/images/header/lowerBarBG.gif');
+	background-repeat:repeat-x;
+	padding-left:111px;
+	color:#344c5f;
+	margin-top:1px;
+}
+
+.subHeaderMargin {
+	padding-top:8px;
+}
+
+a.subHeaderLink,a.subHeaderLink:hover,a.subHeaderLink:visited,a.subHeaderLink:active {
+	color:#6f9fc8;
+	text-decoration:none;
+}
+
+.subHeaderLinkActive {
+	color:#8ecbff;
+	font-weight:bold;
+}
+
+#searchBox {
+	float:right;
+	position:relative;
+	margin:0;
+	padding:0;
+	padding-right:27px;
+	padding-top:7px;
+}
+
+#searchInputBox {
+	margin-top:-6px;
+	width:170px;
+	color:#909090;
+}
+
+#searchText {
+	font-style:italic;
+	color:#6f9fc8;
+}
+
+#betaTag {
+	text-align:center;
+	position:absolute;
+	top:4px;
+	left:45px;
+	border:none;
+	z-index:99;
+}
+
+#betaText {
+	position:absolute;
+	top:34px;
+	left:115px;
+	border:none;
+	z-index:99;
+}
+
+#reportAbuse {
+	position:absolute;
+	display:block;
+	visibility:visible;
+	width:auto;
+	height:auto;
+	top:32px;
+	left:0px;
+	margin:0;
+	padding:0;
+	color:#ffffff;
+	z-index:150;
+}
+
+#reportAbuseNew {
+	position:absolute;
+	display:block;
+	visibility:visible;
+	width:auto;
+	height:auto;
+	top:36px;
+	z-index:150;
+}
+
+#rAText {
+	float:left;
+	display:block;
+	visibility:visible;
+	background-color:#3f3f3f;
+	background-image:url('http://steamcommunity.com/public/images/header/reportAbuseBG.gif');
+	background-repeat:repeat-x;
+	width:auto;
+	margin:0;
+	padding:0;
+	height:20px;
+	line-height:18px;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+#abuseReportLink {
+	color:#bebebe;
+	text-decoration:none;
+}
+
+#rALeft,#rARight {
+	float:left;
+	width:3px;
+	height:20px;
+	margin:0;
+	padding:0;
+}
+
+#rALeft {
+	background-image:url('http://steamcommunity.com/public/images/header/reportAbuseLeft.gif');
+}
+
+#rARight {
+	background-image:url('http://steamcommunity.com/public/images/header/reportAbuseRight.gif');
+}
+
+#reporter {
+	position:absolute;
+	display:none;
+	visibility:visible;
+	border:solid #595959 1px;
+	background-color:#3f3f3f;
+	margin:0;
+	width:200px;
+	left:-86px;
+	top:20px;
+	padding:6px;
+	color:#898989;
+	font-size:11px;
+	line-height:14px;
+	z-index:180;
+}
+
+#reporter>a,#reporter>a:hover,#reporter>a:visited,#reporter>a:active {
+	display:inline;
+	visibility:visible;
+	color:#e1e1e1;
+	text-decoration:none;
+	font-size:11px;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+}
+
+#abuseForm {
+	margin:0;
+	padding:0;
+}
+
+#abuseDescriptionArea {
+	border:solid #595959 1px;
+	background-color:#3f3f3f;
+	color:#898989;
+	font-size:11px;
+	width:180px;
+}
+
+.abuseRadio {
+	border:none;
+	background-color:#3f3f3f;
+}
+
+
+/*
+ * HEADER
+ */
+
+/* apply 16px padding to the sides of all the page-wide divs to prevent content 
+	from touching the sides on small resolutions */
+img {
+	border: none;
+}
+div#global_header {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+
+div#global_header {
+	background-image: url( http://steamcommunity.com/public/images/header/globalheader_bg.jpg);
+	background-color: #000000;
+	border-bottom: 1px solid #4D4B48;
+	background-position: center top;
+}
+
+/**/
+div#global_header .content {
+	background-image: url( http://steamcommunity.com/public/images/header/globalheader_bg.jpg);
+	background-position: center top;
+	position: relative;
+	width: 940px;
+	height: 104px;
+	margin: 0px auto;
+	z-index: 402;
+}
+
+div#global_actions {
+	position: absolute;
+	right: 0px;
+	top: 8px;
+	
+	color: #b8b6b4;
+	font-size: 11px;
+	
+	z-index: 401;
+}
+
+div#global_actions a {
+	color: #b8b6b4;
+}
+
+div#global_actions a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+div#global_actions #global_action_menu {
+	float: right;
+}
+
+div#global_actions .user_avatar {
+	float: right;
+	margin-left: 8px;
+}
+
+div#global_header div.logo {
+	float: center;
+	padding-top: 30px;
+	margin-right: 40px;
+	width: 176px;
+	height: 44px;
+}
+
+div#global_header .menuitem {
+	display: block;
+	position: relative;
+	
+	padding-top: 40px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	
+	float: left;
+	font-size: 14px;
+	color: #b8b6b4;
+	text-transform: uppercase;
+}
+
+div#global_header .menuitem.active, div#global_header .menuitem:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+div#global_header .menuitem.active {
+	background-image: url( http://steamcommunity.com/public/images/header/globalheader_highlight.png) ;
+	background-repeat: repeat-x;
+}
+
+div#global_header .activebg {
+	display: none;
+}
+
+#language_pulldown {
+	margin: 1px;
+}
+
+#language_pulldown.focus {
+	margin: 0px;
+	border: 1px solid #b0aeac;
+}
+
+
+#language_dropdown
+{
+	width: 200px;
+	z-index: 400;
+	right: -16px;
+	text-align:left;
+}
+
+/*
+ * GENERIC POPUP
+ */
+
+
+.pulldown {
+	padding-right: 12px;
+	background-image: url( http://steamcommunity.com/public/images/header/btn_arrow_down.png );
+	background-position: right center;
+	background-repeat: no-repeat;
+	
+	cursor: pointer;
+}
+
+.popup_block {
+	z-index: 200;
+	position: absolute;
+}
+
+.popup_block .popup_body {
+	background-color: #3b3938;
+	border: 1px solid #82807c;
+	position: relative;
+}
+
+.popup_block .header {
+	padding: 4px 16px;
+	height: 18px;
+	
+	font-size: 12px;
+	font-weight: bold;
+	color: #d6d7d8;
+	
+	background-image: url(http://steamcommunity.com/public/images/header/maincol_bg_gray.png);
+	background-repeat: no-repeat;
+	background-color: #303030;
+}
+
+.popup_block .popup_body.popup_menu {
+	border-bottom: none;
+}
+
+.popup_menu a.popup_menu_item {
+	display: block;
+	padding: 5px 12px;
+	border-bottom: 1px solid #82807c;
+	color: #b0aeac;
+	z-index:900;
+}
+
+.popup_menu a.popup_menu_item:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.popup_body h5 {
+	font-size: 10px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #b8b6b4;
+	z-index:999;
+}
+
+a.popup_menu_item:hover h5 {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+div#userControls {
+	width:929px;
+	padding:18px 6px 20px 13px;
+	text-align:left;
+	position:relative;
+}
+
+div#userControls a.userControlsLink {
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+div#headerSearch {
+	float:right;
+	position:relative;
+	width:253px;
+	height:27px;
+	background-image: url(http://steamcommunity.com/public/images/skin_1/searchbox_bg.gif);
+	background-repeat:no-repeat;
+	padding:0;
+	margin:0;
+	margin-top:-5px;
+}
+
+#searchInputBoxNew {
+	padding:0;
+	margin:0;
+	border:none;
+	position:absolute;
+	top:6px;
+	left:6px;
+	width:212px;
+	background-color:#3a3a3a;
+}
+
+#searchSubmitImg {
+	position:absolute;
+	top:5px;
+	left:226px;
+	width:23px;
+	height:18px;
+	padding:0;
+	margin:0;
+	border:none;
+}
+
+#headerSearchForm {
+	padding:0;
+	margin:0;
+}
+
+/*
+ * DROP SHADOWS
+ */
+
+.shadow_content {
+	margin: 12px;
+}
+
+.shadow_ul, .shadow_ur, .shadow_bl, .shadow_br {
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	background-image: url( http://steamcommunity.com/public/images/header/shadow_corners.png );
+}
+
+.shadow_ul {
+	top: 0px;
+	left: 0px;
+	background-position: top left;
+}
+
+.shadow_ur {
+	top: 0px;
+	right: 0px;
+	background-position: top right;
+}
+
+.shadow_bl {
+	bottom: 0px;
+	left: 0px;
+	background-position: bottom left;
+}
+
+.shadow_br {
+	bottom: 0px;
+	right: 0px;
+	background-position: bottom right;
+}
+
+.shadow_top, .shadow_bottom {
+	position: absolute;
+	margin: 0px 12px;
+	height: 12px;
+	left: 0px;
+	right: 0px;
+	background-image: url( http://steamcommunity.com/public/images/header/shadow_topbottom.png );
+	background-repeat: repeat-x; 
+}
+.shadow_top {
+	background-position: top;
+	top: 0px;
+}
+.shadow_bottom {
+	background-position: bottom;
+	bottom: 0px;
+}
+.shadow_left, .shadow_right {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	margin: 12px 0px;
+	width: 12px;
+	background-image: url( http://steamcommunity.com/public/images/header/shadow_leftright.png );
+	background-repeat: repeat-y;
+}
+.shadow_left {
+	background-position: left;
+	left: 0px;
+}
+.shadow_right {
+	background-position: right;
+	right: 0px;
+}
+
+.suppress_shadow .shadow_ul,.suppress_shadow .shadow_ur, .suppress_shadow .shadow_bl, .suppress_shadow .shadow_br,
+.suppress_shadow .shadow_top, .suppress_shadow .shadow_bottom, 
+.suppress_shadow .shadow_left, .suppress_shadow .shadow_right {
+	background-image: none;
+}  
